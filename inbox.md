@@ -34,31 +34,31 @@
 
 ## Useful Command Line Snippets
 
-Mount a USB drive in WSL:
+### Mount a USB drive in WSL:
 
 ```zsh
 sudo mount -t drvfs e: /mnt/e
 ```
 
-Batch partial rename in zsh:
+### Batch partial rename in zsh:
 
 ```zsh
 zmv '(*)x264(*)' '$1av1$2'
 ```
 
-Reorganize MDX blog entries:
+### Reorganize MDX blog entries:
 
 ```zsh
 for f in blog/*.mdx; do mkdir ${f:r} && mv "$f" ${f:r}/index.mdx; done
 ```
 
-Generate video previews:
+### Generate video previews:
 
 ```zsh
 for f in *.mkv; do vcsi "$f" -t -w 850 -g 4x4 --background-color 000000 --metadata-font-color ffffff --end-delay-percent 20 --metadata-font /usr/share/fonts/TTF/DejaVuSans-Bold.ttf; done
 ```
 
-Install git with parameters on Windows 10 using Chocolatey:
+### Install git with parameters on Windows 10 using Chocolatey:
 
 ```posh
 choco install git -y --params "/GitAndUnixToolsOnPath /NoAutoCrlf /WindowsTerminal /DefaultBranchName:main /Editor:nvim"
@@ -75,4 +75,44 @@ Clipped from: https://www.reddit.com/r/WireGuard/comments/rp48lr/wsl2_and_wiregu
 ```ini
 [network]
 generateResolvConf = false
+```
+
+## Useful JavaScript Snippets
+
+### Complete an entire section in a Udemy course
+
+```javascript
+const section = document.querySelector('div[data-purpose="section-panel-16"]');
+const checkboxes = section.querySelectorAll(
+	'input[type="checkbox"]:not(:checked)'
+);
+for (let cb of checkboxes) {
+	cb.click();
+}
+```
+
+### Clear Twitter interests
+
+```javascript
+const intervalID = setInterval(() => {
+	const cb = document.querySelector('input[type="checkbox"]:checked');
+	if (!cb) {
+		clearInterval(intervalID);
+		return;
+	}
+	cb?.click();
+}, 500);
+```
+
+### Clear Twitter topic suggestions
+
+```javascript
+const intervalID = setInterval(() => {
+	const btn = document.querySelector('div[aria-label*="Dismiss"]');
+	if (!btn) {
+		clearInterval(intervalID);
+		return;
+	}
+	btn?.click();
+}, 500);
 ```
