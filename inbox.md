@@ -17,19 +17,24 @@
 
 -   Writing on GitHub > [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
 
-## Useful Windows 10 Utilities
+## Useful Windows Utilities
 
+-   [0patch](https://0patch.com/): micropatches for security vulnerabilities
 -   7zip-zstd
 -   [chocolatey](https://chocolatey.org/)
 -   [CompactGUI](https://github.com/IridiumIO/CompactGUI): transparently compresses your games and programs
+-   [Cryptomator](https://cryptomator.org/): pre-Internet encryption for the cloud
 -   [DNS Benchmark](https://www.grc.com/dns/benchmark.htm)
 -   dnscrypt-proxy
 -   [FastCopy](https://fastcopy.jp/): the Fastest Copy/Backup Software on Windows
 -   [InControl](https://www.grc.com/incontrol.htm): prevents Microsoft from force upgrading your Windows
 -   lsd
 -   oh-my-posh
--   tldr-plusplus
+-   [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/): utilities to customize Windows
+-   [Sandboxie Plus](https://sandboxie-plus.com/): sandbox-based isolation software
 -   [shutup10](https://www.oo-software.com/en/shutup10): free antispy tool for Windows 10 and 11
+-   [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/): advanced system utilities
+-   tldr-plusplus
 -   which
 
 ## Useful Command Line Snippets
@@ -62,6 +67,12 @@ for f in *.mkv; do vcsi "$f" -t -w 850 -g 4x4 --background-color 000000 --metada
 
 ```posh
 choco install git -y --params "/GitAndUnixToolsOnPath /NoAutoCrlf /WindowsTerminal /DefaultBranchName:main /Editor:nvim"
+```
+
+### 字幕文件带时间戳
+
+```shell
+yt-dlp --write-auto-sub --sub-lang zh-Hans,en --convert-subs=srt ${url}
 ```
 
 ## WSL Troubleshooting
