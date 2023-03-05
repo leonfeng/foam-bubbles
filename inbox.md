@@ -126,3 +126,7 @@ const intervalID = setInterval(() => {
 	btn?.click();
 }, 500);
 ```
+
+## Windows Tips
+
+[[How to Enable Administrator Account (Built-in) on Windows 10]]
