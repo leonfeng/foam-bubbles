@@ -13,10 +13,6 @@
 
 <hr>
 
-## Bookmarks
-
--   Writing on GitHub > [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
-
 ## Useful Windows Utilities
 
 -   [0patch](https://0patch.com/): micropatches for security vulnerabilities
@@ -33,9 +29,12 @@
 -   [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/): utilities to customize Windows
 -   [Sandboxie Plus](https://sandboxie-plus.com/): sandbox-based isolation software
 -   [shutup10](https://www.oo-software.com/en/shutup10): free antispy tool for Windows 10 and 11
+-   [SpeedFan](https://www.almico.com/speedfan.php): access temperature sensor in your computer
+-   [Syncthing](https://syncthing.net/): a continuous file synchronization program
 -   [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/): advanced system utilities
 -   tldr-plusplus
 -   which
+-   [wsldl](https://github.com/yuk7/wsldl): advanced WSL launcher / installer
 
 ## Useful Command Line Snippets
 
