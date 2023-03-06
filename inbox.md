@@ -74,6 +74,17 @@ choco install git -y --params "/GitAndUnixToolsOnPath /NoAutoCrlf /WindowsTermin
 yt-dlp --write-auto-sub --sub-lang zh-Hans,en --convert-subs=srt ${url}
 ```
 
+### Securely wipe an Android phone’s free space in Termux
+
+-   [ ] TODO: test on a device
+
+```shell
+# Generate a large file that fills up the free space
+fallocate -l 2T big_file
+# Overwrite the file with random data and delete it
+shred -n7 -uv big_file
+```
+
 ## WSL Troubleshooting
 
 ### WSL2 and WireGuard : WireGuard
