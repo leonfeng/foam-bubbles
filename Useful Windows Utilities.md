@@ -1,0 +1,23 @@
+# Useful Windows Utilities
+
+-   [0patch](https://0patch.com/): micropatches for security vulnerabilities
+-   7zip-zstd
+-   [chocolatey](https://chocolatey.org/)
+-   [CompactGUI](https://github.com/IridiumIO/CompactGUI): transparently compresses your games and programs
+-   [Cryptomator](https://cryptomator.org/): pre-Internet encryption for the cloud
+-   [DNS Benchmark](https://www.grc.com/dns/benchmark.htm)
+-   dnscrypt-proxy
+-   [FastCopy](https://fastcopy.jp/): the Fastest Copy/Backup Software on Windows
+-   [InControl](https://www.grc.com/incontrol.htm): prevents Microsoft from force upgrading your Windows
+-   lsd
+-   oh-my-posh
+-   [Particle Fire](https://longbowgames.com/particlefire/): classic screensaver
+-   [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/): utilities to customize Windows
+-   [Sandboxie Plus](https://sandboxie-plus.com/): sandbox-based isolation software
+-   [shutup10](https://www.oo-software.com/en/shutup10): free antispy tool for Windows 10 and 11
+-   [SpeedFan](https://www.almico.com/speedfan.php): access temperature sensor in your computer
+-   [Syncthing](https://syncthing.net/): a continuous file synchronization program
+-   [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/): advanced system utilities
+-   tldr-plusplus
+-   which
+-   [wsldl](https://github.com/yuk7/wsldl): advanced WSL launcher / installer
