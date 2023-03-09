@@ -46,3 +46,9 @@ fallocate -l 2T big_file
 # Overwrite the file with random data and delete it
 shred -n7 -uv big_file
 ```
+
+## Add sequential tasks in zsh
+
+```zsh
+for i in {17..60}; do task add pro:普通话考试短文 pri:M 录制第`echo $i`篇短文; done
+```
