@@ -52,3 +52,38 @@ shred -n7 -uv big_file
 ```zsh
 for i in {17..60}; do task add pro:普通话考试短文 pri:M 录制第`echo $i`篇短文; done
 ```
+
+## Print $PATH, one segment per line
+
+```shell
+echo $PATH | tr ':' '\n' | sort
+```
+
+## Save SSH key passphrase on demand
+
+```shell
+eval $(keychain --eval --quiet id_ed25519 ~/.ssh/id_ed25519)
+```
+
+## Add tasks from a list of items
+
+```zsh
+#!/bin/zsh
+# File: readfile.zsh
+# Usage: chmod +x readfile.zsh
+# 		./readfile.zsh myfile.txt
+
+if [ -z "$1" ]; then
+	echo "Please specify a text file to read."
+	exit 1
+fi
+
+if [ ! -f "$1" ]; then
+	echo "File '$1' not found."
+	exit 1
+fi
+
+while read -r line; do
+	task add pro:clean-apt pri:L due:eow recur:weekly +home "Clean the `echo "$line"`"
+done < "$1"
+```
