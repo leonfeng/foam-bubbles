@@ -87,13 +87,14 @@ Different quotation marks depending on locale.
 </p>
 ```
 
+<!-- prettier-ignore-start -->
 ```html
 <p lang="fr">
 	Jeremy Keith a dit:
-	<q>Vous pouvez ouvrir un document HTML de l'époque dans un navigateur
-		aujourd'hui.</q>
+	<q>Vous pouvez ouvrir un document HTML de l'époque dans un navigateur aujourd'hui.</q>
 </p>
 ```
+<!-- prettier-ignore-end -->
 
 ```html
 <p lang="bg">
@@ -101,3 +102,89 @@ Different quotation marks depending on locale.
 	<q>че днес можете да отворите HTML документ от тогава в браузъра.</q>
 </p>
 ```
+
+## Dates and times
+
+```html
+<time datetime="2025-05-08">May 8, 2025</time>
+```
+
+```html
+<time>on the 8th of May next year</time>
+```
+
+```html
+<time datetime="15:45-05:00">3:45pm in New York</time>
+```
+
+```html
+<time datetime="2020-11-04T19:00">Wednesday, Nov 4th at 7p</time>
+```
+
+## Code, pre, and br
+
+### `<code>`
+
+```html
+<p>
+	We can write <code>{color:green;}</code> in our CSS, and it will apply to
+	anything marked up as an <code>&lt;H4&gt;</code> element.
+</p>
+```
+
+### `<pre>`
+
+```html
+<h1>[in Just-]</h1>
+<p>by e.e. cummings</p>
+<pre>
+it's
+spring
+and
+
+        the
+
+                goat-footed
+
+balloonMan        whistles
+far
+and
+wee
+</pre>
+```
+
+![](attachments/Screenshot%202021-05-24%20133207.png)
+
+## Superscripts, subscripts, and small text
+
+### `<sub>`
+
+```html
+<p>H<sub>2</sub>O</p>
+```
+
+### `<sup>`
+
+```html
+<p>Something that has a footnote.<sup>2</sup></p>
+```
+
+### `<small>`
+
+To convey something that has very little prominence
+
+```html
+<small>&copy; 2019 Fancy Company</small>
+```
+
+## HTML attributes
+
+### Global Attributes
+
+Work on any HTML element.
+
+`class`, `id`
+
+`contenteditable`
+
+`lang`, `dir`
