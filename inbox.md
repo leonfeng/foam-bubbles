@@ -12,3 +12,5 @@
     -   You can always find them in your git history, if you really need it!
 
 <hr>
+
+[[HTML Essential Training by Jen Simmons]]
