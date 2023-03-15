@@ -13,8 +13,6 @@
 
 <hr>
 
-[[HTML Essential Training by Jen Simmons]]
-
 [Problems caused by JavaScirpt’s `datetime`](https://discord.com/channels/692816967895220344/718214639669870683/1057361106672287774)
 ![](attachments/Screenshot%202023-03-15%20084330.png)
 

@@ -2,6 +2,7 @@
 
 ## Computing and information technology
 
+-   [[HTML Essential Training by Jen Simmons]]
 -   [[Useful Command Line Snippets]]
 -   [[Useful JavaScript Snippets]]
 
